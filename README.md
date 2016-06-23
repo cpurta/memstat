@@ -93,9 +93,9 @@ func main() {
 
 ## Monitoring
 
-With the above example we can then use an interface like (Grafana)[http://http://grafana.org/] or (Chronograf)[https://influxdata.com/time-series-platform/chronograf/]
+With the above example we can then use an interface like [Grafana](http://http://grafana.org/) or [Chronograf](https://influxdata.com/time-series-platform/chronograf/)
 to visualize our system resources for our go application in real-time.
 
-In the above example I was using a Docker container using the (tutum/influxdb)[https://hub.docker.com/r/tutum/influxdb/] image for my InfluxDB which allows
+In the above example I was using a Docker container using the [tutum/influxdb](https://hub.docker.com/r/tutum/influxdb/) image for my InfluxDB which allows
 you to set the user, password and any database that you want with environment variables. Then you can use Grafana, Chronograf or any other visualization project
 to view the system usage metrics. I highly recommend that you do the same and play around with the main provided to make some cool looking graphs.

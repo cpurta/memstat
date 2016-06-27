@@ -1,4 +1,4 @@
-# mempoint
+# memstat
 
 mempoint is a simple package that allows to get system statistics for your go applications and
 send those statistics to InfluxDB which can be used when monitoring your applications.
